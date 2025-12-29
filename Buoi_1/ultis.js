@@ -178,7 +178,6 @@ const factorial = (num) => {
     }
     return giaithua;
 }
-
 const seperateEvenOdd = (arr) => {
     let even = arr.filter((num) => num % 2 === 0)
     let odd = arr.filter((num) => num % 2 !== 0)
